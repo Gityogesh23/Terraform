@@ -1,0 +1,2 @@
+Terraform is popular IAC tool which enable to provision cloud infrastructure across 
+clouds(AWS,AZURE,GCP).
