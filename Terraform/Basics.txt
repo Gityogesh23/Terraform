@@ -2,3 +2,4 @@ Terraform is popular IAC tool which enable to provision cloud infrastructure acr
 clouds(AWS,AZURE,GCP).
 Terraform helps us to create an cloud infrastructure in more eficient way and 
 its easy to manage as well.
+Terraform is Tolls ,while iac is a concept.
