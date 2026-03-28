@@ -5,3 +5,14 @@ clouds(AWS,AZURE,GCP).
 Terraform helps us to create an cloud infrastructure in more eficient way and 
 its easy to manage as well.
 Terraform is Tolls ,while iac is a concept.
+
+Default Name: terraform.tfstate.
+Purpose: Maps real-world infrastructure to your configuration.
+Mechanism: Stores mappings, IDs, and metadata for managed objects.
+Storage Types: Local (on disk) or Remote (S3, GCS, Azure Blob, Terraform Cloud).
+Management Commands: terraform state <subcommand> (e.g., list, mv, rm, pull, push). 
+Key Concepts Related to State:
+State File (terraform.tfstate): The actual file storing the JSON data.
+Backend: Defines where Terraform stores its state data (local or remote).
+Refresh: The process of updating state with real-world infrastructure.
+Resource Drift: When the real-world infrastructure deviates from the state file's record
